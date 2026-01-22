@@ -95,7 +95,7 @@ void attempt_ride(Person* person, const Transport* transport, int choice)
 }
 
 // Main program logic: keeps asking until you're broke
-void run_program()
+void run_exercise_1()
 {
     Transport transport;
     Person person;

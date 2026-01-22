@@ -23,6 +23,7 @@ void attempt_ride(Person* p, const Transport* t, int choice);
 int can_afford_any(const Person* p, const Transport* t);
 
 // Main logic starts here
-void run_program();
+void run_exercise_1();
 
-#endif //IOT_LAITTEIDEN_C_OHJELMOINTI_Р_H
+#endif
+
