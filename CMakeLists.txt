@@ -8,4 +8,6 @@ add_executable(IoT_laitteiden_C_ohjelmointi main.c
         Exercise_1/Exercise_1.c
         Exercise_2/Exercise_2.h
         Exercise_2/Exercise_2.c
+        Exercise_3/Exercise_3.c
+        Exercise_3/Exercise_3.h
 )
