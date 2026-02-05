@@ -4,6 +4,7 @@
 #include "Exercise_3/Exercise_3.h"
 #include "Exercise_4/Exercise_4.h"
 #include "Exercise_5/Exercise_5.h"
+#include "Exercise_6/Exercise_6.h"
 
 int main(void)
 {
@@ -11,6 +12,8 @@ int main(void)
     //run_exercise_2();
     //run_exercise_3();
     //run_exercise_4();
-    run_exercis5e_5();
+    //run_exercis5e_5();
+    run_exercise_6();
+
     return 0;
 }
