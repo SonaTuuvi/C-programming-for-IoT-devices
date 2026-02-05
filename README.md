@@ -1,51 +1,80 @@
 # C-programming-for-IoT-devices
-C for IoT devices – low-level bugs, high-level ambitions. (Proudly segfaulting smart devices since 2026.)
-
-### **How to Run the Exercises**
-
-_Clone or download the repo. You know the drill._
-
-_Open main.c._
-
-### Uncomment the line for the exercise you want to run — like this:
-- // run_exercise_1();
-- // run_exercise_2();
-- // run_exercise_3();
-- run_exercise_5(); // ← this is the chosen one
-
-Build & run the project (gcc, your IDE, or just ✨ pure hope ✨).
-Enjoy the chaos (or structure, depending on the task).
-
-Example: Running Exercise 5
-A 3-round dice game where the computer always wins (except when you roll a 6 — then it's "fair").
-Input is validated.
-Program is mildly sarcastic.
-
-
-**No structs. No pointers. No stress. Okay, maybe just a little.**
-
-
-## Exercise 6 – Dice Menu (The Structured Version™)
-
-This ain't your average single-file throwaway.  
-This is a *modular*, *commented*, and *gloriously separated* dice simulator.  
-Because clarity matters. And so does sarcasm.
-
-### What it does:
-- Shows a menu: D6, D10, or Quit
-- Validates input like a polite bouncer
-- Rolls virtual dice using `rand()` (chaos, but controlled)
-- Runs until the user gives up (as they should)
-
-### Structure:
-- `run_exercise_6.c` – logic, commentary, and sass
-- `run_exercise_6.h` – declarations because structure is love
-- Called from `main.c` because i respect entry points
-
-### Why it's like this:
-Because "just put it in one file" is not a rule, it’s a suggestion.  
-And this dev? Chooses architecture over minimalism. Every time.
+**C for IoT devices – low-level bugs, high-level ambitions.**  
+(Proudly segfaulting smart devices since 2026.)
 
 ---
 
-> *Commented with intention, formatted with pride, executed with random.*
+## How to Run the Exercises Now
+
+Good news: we've evolved.
+
+No more manually commenting/uncommenting `run_exercise_X()` lines like it’s 1999.  
+We now have a **menu**. Yes. An actual user-facing menu. Welcome to civilization.
+
+### Steps:
+
+1. Clone or download this glorious chaos.
+2. Open the project in your IDE of choice. Or don’t. GCC is fine. Hope is optional.
+3. Build the project.
+4. Run it.
+5. You’ll be greeted by:
+
+- Welcome to the Exercise Chooser 3000
+- Pick your flavor of pain today:
+- 1 - Exercise 1
+- 2 - Exercise 2
+- ...
+- 9 - Exercise 9
+- 0 - Exit, because sanity matters
+
+
+
+6. Pick a number. Press Enter.
+7. Watch your chosen exercise either run flawlessly or drag you into C-induced madness.
+
+---
+
+## Project Structure (a.k.a. Organized Madness™)
+
+Each exercise lives in its own directory:
+- `Exercise_1/` to `Exercise_9/`
+- Each has its own `.c` and `.h` file (because even chaos needs structure)
+- Exercises are summoned through the great summoner: `menu.c`
+
+All starts from:
+- `main.c` → calls `show_exercise_menu()` → you choose your fate → something happens
+
+---
+
+## Example: Running Exercise 6
+
+Choose `6` from the menu. You’ll experience:
+
+- A polite dice-rolling menu (D6? D10? Want to quit?)
+- Legit input validation
+- A loop that only ends when you do
+
+Because yes, **structure is love**.  
+And also: _“just one file”_ is a myth whispered by the lazy.
+
+---
+
+## Philosophy
+
+- **No copy-paste loops.** We write functions like adults.
+- **No single-file hell.** Modular, because duct tape can only do so much.
+- **Pointers? Sure. Sanity? Unclear.**
+- **Comments have personality.** You’ll know exactly how the dev was feeling at 2:13am.
+
+---
+
+##  Notes
+
+- If you get linker errors, it’s because two files are screaming for attention.
+- If you get a segfault, well — welcome to C.
+- If everything works the first time, you're hallucinating.
+
+---
+
+> _Commented with intention, formatted with pride, executed with random._  
+> _Written by someone who’s been deep in the stack and came back with opinions._
