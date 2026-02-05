@@ -40,7 +40,7 @@ Because clarity matters. And so does sarcasm.
 ### Structure:
 - `run_exercise_6.c` – logic, commentary, and sass
 - `run_exercise_6.h` – declarations because structure is love
-- Called from `main.c` because we respect entry points
+- Called from `main.c` because i respect entry points
 
 ### Why it's like this:
 Because "just put it in one file" is not a rule, it’s a suggestion.  
