@@ -15,6 +15,6 @@ typedef struct {
 }UserInput;
 
 
-void tun_exercise_10();         // Entry point to the abyss
+void run_exercise_10();         // Entry point to the abyss
 
 #endif //IOT_LAITTEIDEN_C_OHJELMOINTI_EXERCISE_10_H

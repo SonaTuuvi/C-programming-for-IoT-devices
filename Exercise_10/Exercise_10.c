@@ -38,7 +38,7 @@ void analyze_input(UserInput *user_input) {
     // strcmp returns 0 if the strings match exactly — no surprises, hopefully
 }
 
-void run_exersise_10() {
+void run_exercise_10() {
     UserInput current_user_input;   // using a struct for one string because why not overengineer
     // I'm already dying of boredom… isn't there a law against making experienced programmers suffer like this?
 
