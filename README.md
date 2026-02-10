@@ -2,6 +2,15 @@
 **C for IoT devices – low-level bugs, high-level ambitions.**  
 (Proudly segfaulting smart devices since 2026.)
 
+But here we are — because C doesn’t believe in making life easy,
+and I don’t believe in writing boring code.
+
+Also, I’m convinced this exercise was designed specifically
+to make experienced developers feel like interns again.
+Is it legal to waste this much brainpower on string length?
+
+Anyway, it compiles. You're welcome.
+
 ---
 
 ## How to Run the Exercises Now
