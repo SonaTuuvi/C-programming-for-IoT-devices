@@ -33,7 +33,7 @@ We now have a **menu**. Yes. An actual user-facing menu. Welcome to civilization
 - 1 - Exercise 1
 - 2 - Exercise 2
 - ...
-- 9 - Exercise 9
+- 10 - Exercise 10
 - 0 - Exit, because sanity matters
 
 

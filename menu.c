@@ -9,6 +9,8 @@
 #include "Exercise_8/Exercise_8.h"
 #include "Exercise_9/Exercise_9.h"
 #include "Exercise_10/Exercise_10.h"
+#include "Exercise_11/Exercise_11.h"
+#include "Exercise_12/Exercise_12.h"
 
 void show_exercise_menu(void) {
     int user_choice = -1;
@@ -26,6 +28,8 @@ void show_exercise_menu(void) {
         printf(" 8 - Exercise 8\n");
         printf(" 9 - Exercise 9\n");
         printf(" 10 - Exercise 10\n");
+        printf(" 11 - Exercise 11\n");
+        printf(" 12 - Exercise 12\n");
         printf(" 0 - Exit, because sanity matters\n");
         printf("Your choice: ");
 
@@ -46,6 +50,8 @@ void show_exercise_menu(void) {
             case 8: run_exercise_8(); break;
             case 9: run_exercise_9(); break;
             case 10: run_exercise_10(); break;
+            case 11: run_exercise_11(); break;
+            case 12: run_exercise_12(); break;
             case 0:
                 printf("Adieu! Come back when you're ready for more confusion.\n");
                 return;
