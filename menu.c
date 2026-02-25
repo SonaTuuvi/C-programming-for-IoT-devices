@@ -11,6 +11,9 @@
 #include "Exercise_10/Exercise_10.h"
 #include "Exercise_11/Exercise_11.h"
 #include "Exercise_12/Exercise_12.h"
+#include "Exercise_13/Exercise_13.h"
+#include "Exercise_14/Exercise_14.h"
+#include "Exercise_15/Exercise_15.h"
 
 void show_exercise_menu(void) {
     int user_choice = -1;
@@ -30,12 +33,15 @@ void show_exercise_menu(void) {
         printf(" 10 - Exercise 10\n");
         printf(" 11 - Exercise 11\n");
         printf(" 12 - Exercise 12\n");
+        printf(" 13 - Exercise 13\n");
+        printf(" 14 - Exercise 14\n");
+        printf(" 15 - Exercise 15\n");
         printf(" 0 - Exit, because sanity matters\n");
         printf("Your choice: ");
 
         if (scanf("%d", &user_choice) != 1) {
             printf("Invalid input. Next time, try a number.\n");
-            while (getchar() != '\n'); // очищаем поток ввода от мусора
+            while (getchar() != '\n');
             continue;
         }
 
@@ -52,6 +58,9 @@ void show_exercise_menu(void) {
             case 10: run_exercise_10(); break;
             case 11: run_exercise_11(); break;
             case 12: run_exercise_12(); break;
+            case 13: run_exercise_13(); break;
+            case 14: run_exercise_14(); break;
+            case 15: run_exercise_15(); break;
             case 0:
                 printf("Adieu! Come back when you're ready for more confusion.\n");
                 return;
