@@ -36,4 +36,27 @@ add_executable(IoT_laitteiden_C_ohjelmointi main.c
         Exercise_14/Exercise_14.h
         Exercise_15/Exercise_15.c
         Exercise_15/Exercise_15.h
+        Exercise_16/Exercise_16.c
+        Exercise_16/Exercise_16.h
+        Exercise_17/Exercise_17.h
+        Exercise_18/Exercise_18.c
+        Exercise_18/Exercise_18.h
+        Exercise_19/Exercise_19.h
+        Exercise_19/Exercise_19.c
+        Exercise_21/Exercise_21.c
+        Exercise_21/Exercise_21.h
+        Exercise_17/Exercise_17.c
+        Exercise_19/menu_types.h
+        Exercise_19/input_utils.h
+        Exercise_19/input_utils.c
+        Exercise_19/menu_io.h
+        Exercise_19/menu_io.c
+        Exercise_19/menu_sort.h
+        Exercise_19/menu_sort.c
+        Exercise_19/menu_print.h
+        Exercise_19/menu_print.c
+        Exercise_20/debug.c
+        Exercise_20/debug.h
+        Exercise_20/Exercise_20.c
+        Exercise_20/Exercise_20.h
 )

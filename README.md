@@ -33,7 +33,7 @@ We now have a **menu**. Yes. An actual user-facing menu. Welcome to civilization
 - 1 - Exercise 1
 - 2 - Exercise 2
 - ...
-- 15 - Exercise 15
+- 21 - Exercise 21
 - 0 - Exit, because sanity matters
 
 
@@ -46,7 +46,7 @@ We now have a **menu**. Yes. An actual user-facing menu. Welcome to civilization
 ## Project Structure (a.k.a. Organized Madness™)
 
 Each exercise lives in its own directory:
-- `Exercise_1/` to `Exercise_15/`
+- `Exercise_1/` to `Exercise_21/`
 - Each has its own `.c` and `.h` file (because even chaos needs structure)
 - Exercises are summoned through the great summoner: `menu.c`
 
